@@ -1,0 +1,90 @@
+.dmodal-container {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(128, 128, 128,0.3);
+    z-index: 99;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(15px);
+    display: flex;
+    align-items: center;
+    font-family: 'poppins';
+    border-radius: 10px;
+
+}
+.delete-inner {
+    height: 280px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 10px;
+}
+.delete-inner span{
+   height: 30px;
+   margin-left: 250px;
+   font-size: 15px;
+}
+.delete-inner span:hover{
+    cursor: pointer;
+    font-size: 17px;
+    color: red;
+    transition: 0.3s;
+}
+.view-div{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+ 
+}
+.view-div div{
+    height: 80px;
+
+    margin-top: 100px;
+}
+.view-div p{
+    color: black;
+    align-self: center;
+    font-size: larger;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.last-div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.last-div button{
+    height: 50px;
+    width: 120px;
+    border-radius: 5px;    
+}
+.last-div button:hover{
+    cursor: pointer;
+}
+.last-div #bt1{
+    background-color: grey;
+}
+.last-div #bt2{
+    background-color: rgb(146, 126, 126);
+}
+@font-face {
+    font-family: 'Poppins-bold';
+    src: url('../../fonts/Poppins-Bold.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../fonts/Poppins-Regular.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'Poppins-thin';
+    src: url('../../fonts/Poppins-Thin.ttf') format('truetype');
+
+}

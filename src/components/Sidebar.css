@@ -1,0 +1,231 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 255);
+    width: 300px;
+    height: 800px;
+    margin-left: 20px;
+    font-family: 'poppins';
+    border:3px solid #d6dde1;
+    border-radius: 15px;
+    
+}
+
+.logoDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+    background-color: transparent;
+    flex-direction: row;
+    
+}
+.icon-div{
+    height: 50px;
+    width: 70px;
+    background-color: transparent; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.name-div{
+
+
+}*/
+.menuContainer{
+  
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profileDiv{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+}
+.profileDiv #pPic{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 3px solid grey;
+}
+.profileDiv #ePic{
+    background-color: white;
+    height: 50px;
+    width: 250px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.taskDiv{
+    height: 50px;
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 25px;
+    
+}
+.taskDivClicked {
+    height: 50px;
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(27, 25, 25);
+    transition: 0.3s;
+
+}
+
+.taskDivClicked .one-click{
+    color: white;
+}
+
+.taskDiv:hover {
+    cursor: pointer;
+}
+.clicked{
+    height: 30px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clicked a {
+        text-decoration: none;
+}
+.clicked:hover {
+  cursor: pointer;
+}
+.innerTask{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-right: 20px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.employeeDiv {
+    height: 50px;
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 25px;
+    transition: black 0.3s ease;
+    color: black;
+}
+.employeeDivClicked {
+    height: 50px;
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 25px;
+    transition: black 0.3s ease;
+    color: white;
+    background-color:rgb(27, 25, 25); ;
+    transition: 0.3s;
+}
+.employeeDiv:hover {
+  cursor: pointer;
+}
+.employeeDivClicked:hover{
+    cursor: pointer;
+}
+
+.serviceDiv {
+    height: 50px;
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 25px;
+}
+.serviceDiv:hover{
+        cursor: pointer;
+}
+.roomDiv,.roomDivClicked {
+    height: 50px;
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 25px;
+}
+.roomDivClicked {
+    color: white;
+    background-color: rgb(27, 25, 25);
+    transition: 0.3s;
+    
+    
+}
+.roomDiv,.roomDivClicked:hover {
+    cursor: pointer;
+}
+.notificationDiv {
+    height: 50px;
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 25px;
+}
+.notificationDiv:hover {
+   cursor: pointer;
+}
+.menuWrapper{
+    font-size: 13px;
+    color: black;
+}
+.name-div{
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+.one-click{
+    color: black;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.one-click:hover{
+    font-size: 14px;
+    text-decoration: underline;
+}
+@font-face {
+    font-family: 'Poppins-bold';
+    src: url('../fonts/Poppins-Bold.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../fonts/Poppins-Regular.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'Poppins-thin';
+    src: url('../../fonts/Poppins-Thin.ttf') format('truetype');
+
+}

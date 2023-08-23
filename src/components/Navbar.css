@@ -1,0 +1,100 @@
+.nav-bar{
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(255,255,255,255);
+        width: 1080px;
+        height: 80px;
+        align-items: center;
+        border-radius: 15px;
+        justify-content: space-between;
+        font-family: 'poppins';
+        
+}
+.search-div{
+    background-color: rgba(240, 243, 244, 255);
+    height: 40px;
+    width: 300px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.searchIcon{
+    height: 25px;
+    width: 40px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.search-div #searchBox{
+    height: 25px;
+    width:220px;
+    margin-left: 10px;
+    padding-left: 15px;
+    font-family: 'poppins';
+    background-color: transparent;
+}
+
+.search-div #searchBox:focus{
+        outline: none;
+}
+.date-div {
+    background-color: blue;
+    height: 40px;
+    width: 200px; 
+    margin-left: -150px;
+}
+
+.animation-div {
+  
+    height: 50px;
+    width: 300px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.toggle-div{
+    height: 20px;
+    width: 40px;
+    border-radius: 15px;
+    background-color: black;
+    display: flex;
+    transition: 1s;
+
+}
+.inner-toggle{
+    height: 20px;
+    width: 20px;
+    border-radius: 15px;
+ 
+}
+.toggle-div:hover{
+    cursor: pointer;
+}
+.logout{
+   
+    font-size: 12px;
+}
+@font-face {
+    font-family: 'Poppins-bold';
+    src: url('../fonts/Poppins-Bold.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'Poppins-thin';
+    src: url('../fonts/Poppins-Thin.ttf') format('truetype');
+
+}

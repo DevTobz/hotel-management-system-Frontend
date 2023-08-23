@@ -1,0 +1,19 @@
+.home-container{
+    background-color:rgba(181, 194, 202, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 815px;
+}
+
+.second-container-div{
+    background-color: rgba(181, 194, 202, 255);
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 1080px;
+    margin-right: 20px;
+
+}

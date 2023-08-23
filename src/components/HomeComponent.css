@@ -1,0 +1,47 @@
+.homeAnime{
+    margin-top: 20px;
+    height: 700px;
+    width: 1080px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.acontainer{
+    background-color: transparent;
+    height: 300px;
+    width: 700px;
+    color: black;   
+    font-family: 'poppins'; 
+    font-size: 30px; 
+    border: 5px black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bold{
+  font-family: 'poppins-bold';
+  font-size: 35px;
+}
+
+@font-face {
+    font-family: 'Poppins-bold';
+    src: url('../../fonts/Poppins-Bold.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../fonts/Poppins-Regular.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'Poppins-thin';
+    src: url('../../fonts/Poppins-Thin.ttf') format('truetype');
+
+}
